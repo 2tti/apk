@@ -18,18 +18,13 @@
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
-  <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="3000"/>
+ <!--  <preference name="SplashScreen" value="screen"/> 
+ /* <preference name="SplashScreenDelay" value="3000"/>  -->
   
   <preference name="AutoHideSplashScreen" value="false" />
   <preference name="ShowSplashScreenSpinner" value="false" />
 
-  <icon src="icon.png" />
-  
-  <feature name="SplashScreen">
-    <param name="ios-package" value="CDVSplashScreen" />
-    <param name="android-package" value="org.apache.cordova.SplashScreen" />
-</feature>
-  
+  <gap:plugin name="org.apache.cordova.SplashScreen" version="0.8.2" /> 
+ 
   <gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" />
 </widget>
