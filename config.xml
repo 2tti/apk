@@ -26,5 +26,7 @@
 
   <icon src="icon.png" />
   
+  <gap:plugin name="org.apache.cordova.splashscreen" />
+  
   <gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" />
 </widget>
